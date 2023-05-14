@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">IMC Kotlin</string>
     <string name="greeting">Welcome Alvaro</string>
+    <string name="height">Height (Meters)</string>
+    <string name="weight">Weight (Kilograms)</string>
+    <string name="calculate">Calculate IMC</string>
+    <string name="clear">Clear</string>
+    <string name="exit">Exit</string>
 </resources>

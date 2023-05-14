@@ -14,9 +14,69 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
+           android:layout_marginBottom="20dp"
            android:textAlignment="center"
            android:textSize="26sp"
            android:text="@string/greeting"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:labelFor="@+id/txtHeight"
+           android:text="@string/height"
+           android:textSize="16sp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtHeight"
+           android:autofillHints=""
+           android:inputType="numberDecimal"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:labelFor="@+id/txtWeight"
+           android:text="@string/weight"
+           android:textSize="16sp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtWeight"
+           android:autofillHints=""
+           android:inputType="numberDecimal"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/lblIMC"
+           android:textSize="16sp"/>
+
+       <Button
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="5dp"
+           android:text="@string/calculate"
+           android:id="@+id/btnCalculate"/>
+
+       <Button
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="5dp"
+           android:text="@string/clear"
+           android:id="@+id/btnClear"/>
+
+       <Button
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="@string/exit"
+           android:id="@+id/btnExit"/>
+
+
 
    </LinearLayout>
 
