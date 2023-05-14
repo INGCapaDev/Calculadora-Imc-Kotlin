@@ -54,5 +54,9 @@ class MainActivity : AppCompatActivity() {
             lblIMC.text = ""
             txtHeight.requestFocus()
         }
+
+        btnExit.setOnClickListener {
+            finish()
+        }
     }
 }
