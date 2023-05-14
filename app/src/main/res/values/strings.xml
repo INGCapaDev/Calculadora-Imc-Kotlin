@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IMC Kotlin</string>
+    <string name="greeting">Welcome Alvaro</string>
+</resources>
