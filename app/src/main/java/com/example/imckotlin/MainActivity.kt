@@ -46,7 +46,13 @@ class MainActivity : AppCompatActivity() {
             val stringImc = "The IMC is ${"%.2f".format(imc)}"
 
             lblIMC.text = stringImc
+        }
 
+        btnClear.setOnClickListener {
+            txtHeight.text.clear()
+            txtWeight.text.clear()
+            lblIMC.text = ""
+            txtHeight.requestFocus()
         }
     }
 }
